@@ -1,0 +1,36 @@
+# Never commit real data or identifiers to this repository.
+# This repo is a specification only. See README.md § Anonymisation.
+
+# Spreadsheet and data exports
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.json
+*.sqlite
+*.db
+
+# Anything that looks like a real export or backup
+exports/
+backups/
+data/
+*-export.*
+*-backup.*
+
+# Credentials and config
+.env
+.env.*
+*.pem
+*.key
+credentials*
+client_secret*
+service-account*.json
+token.json
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
